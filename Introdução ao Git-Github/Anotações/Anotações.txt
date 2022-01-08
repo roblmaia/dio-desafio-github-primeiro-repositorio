@@ -1,0 +1,37 @@
+Etapas para o github
+
+1. instalar o git bach
+    link: https://git-scm.com/downloads
+
+2. Fazer login no: https://github.com/
+
+3. Criar novo repositório
+    - dar um nome para o repositorio
+    - uma descrição opcional
+    - definir se o repositório será publico ou privado
+    - definir os arquivos iniciais do repositório (recomendado criar o readme, pois ele é a capa do repositório)
+        - o arquivo readme.md é um tipo de linguagem markdown (para mais informações ver em: https://www.markdownguide.org/basic-syntax/)
+    
+
+4. Após criado tem que clonar o repositório para a minha máquina
+    - na página principal do repositório clicar em "Code" e copiar o link htmnl
+    - criar uma pasta no computador onde o git será "conectado"
+    - no terminal do linux entrar na pasta criada acima
+    - no terminal do linux utilizar os seguintes comandos dentro da pasta:
+        git clone [link que foi copiado do html]
+            - nesse momento será clonado o repositório do github dentro da pasta
+    - para saber se foi "conectado com exito utilizar o seguite comando:
+        git status
+        
+5. Com o git clonado no computador faça as coisas que deseja fazer dentro do github no computador
+
+6. Após fazer as coisas que queria fazer verificar com o "git status" no terminal se tem alguma coisa para enviar
+    - se houver algo para enviar para o github será exibido em vermelho
+    
+
+7. Verificando que tem algo para enviar utilizar os seguintes comandos:
+    git add . ou -a ---> controle de versão interno (ainda não enviou para o github)
+    git commit -m "Inclusão das anotações do curso de git/github"
+        - commit ---> envia para o git
+        - -m ---> envia mensagem sobre a versão enviada para o git
+
